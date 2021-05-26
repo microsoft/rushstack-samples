@@ -1,0 +1,191 @@
+9957ab0314dfe3b35b21c645e87a0654
+"use strict"; // This example is adapted from the Jest guide here:
+// https://jestjs.io/docs/en/es6-class-mocks
+
+/* istanbul ignore next */
+function cov_1cuyz9gra5() {
+  var path = "C:\\Git\\rushstack-samples\\heft\\heft-node-jest-tutorial\\src\\guide\\02-manual-mock\\SoundPlayer.ts";
+  var hash = "cd9566c561edeb3cff73ee335562a9aaf1328a64";
+  var global = new Function("return this")();
+  var gcv = "__coverage__";
+  var coverageData = {
+    path: "C:\\Git\\rushstack-samples\\heft\\heft-node-jest-tutorial\\src\\guide\\02-manual-mock\\SoundPlayer.ts",
+    statementMap: {
+      "0": {
+        start: {
+          line: 4,
+          column: 0
+        },
+        end: {
+          line: 4,
+          column: 62
+        }
+      },
+      "1": {
+        start: {
+          line: 5,
+          column: 0
+        },
+        end: {
+          line: 5,
+          column: 29
+        }
+      },
+      "2": {
+        start: {
+          line: 8,
+          column: 8
+        },
+        end: {
+          line: 8,
+          column: 26
+        }
+      },
+      "3": {
+        start: {
+          line: 11,
+          column: 8
+        },
+        end: {
+          line: 11,
+          column: 54
+        }
+      },
+      "4": {
+        start: {
+          line: 12,
+          column: 8
+        },
+        end: {
+          line: 12,
+          column: 40
+        }
+      },
+      "5": {
+        start: {
+          line: 15,
+          column: 0
+        },
+        end: {
+          line: 15,
+          column: 34
+        }
+      }
+    },
+    fnMap: {
+      "0": {
+        name: "(anonymous_0)",
+        decl: {
+          start: {
+            line: 7,
+            column: 4
+          },
+          end: {
+            line: 7,
+            column: 5
+          }
+        },
+        loc: {
+          start: {
+            line: 7,
+            column: 18
+          },
+          end: {
+            line: 9,
+            column: 5
+          }
+        },
+        line: 7
+      },
+      "1": {
+        name: "(anonymous_1)",
+        decl: {
+          start: {
+            line: 10,
+            column: 4
+          },
+          end: {
+            line: 10,
+            column: 5
+          }
+        },
+        loc: {
+          start: {
+            line: 10,
+            column: 28
+          },
+          end: {
+            line: 13,
+            column: 5
+          }
+        },
+        line: 10
+      }
+    },
+    branchMap: {},
+    s: {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    f: {
+      "0": 0,
+      "1": 0
+    },
+    b: {},
+    _coverageSchema: "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    hash: "cd9566c561edeb3cff73ee335562a9aaf1328a64"
+  };
+  var coverage = global[gcv] || (global[gcv] = {});
+
+  if (!coverage[path] || coverage[path].hash !== hash) {
+    coverage[path] = coverageData;
+  }
+
+  var actualCoverage = coverage[path];
+  {
+    // @ts-ignore
+    cov_1cuyz9gra5 = function () {
+      return actualCoverage;
+    };
+  }
+  return actualCoverage;
+}
+
+cov_1cuyz9gra5();
+cov_1cuyz9gra5().s[0]++;
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+/* istanbul ignore next */
+cov_1cuyz9gra5().s[1]++;
+exports.SoundPlayer = void 0;
+
+class SoundPlayer {
+  constructor() {
+    /* istanbul ignore next */
+    cov_1cuyz9gra5().f[0]++;
+    cov_1cuyz9gra5().s[2]++;
+    this._foo = 'bar';
+  }
+
+  playSoundFile(fileName) {
+    /* istanbul ignore next */
+    cov_1cuyz9gra5().f[1]++;
+    cov_1cuyz9gra5().s[3]++;
+    console.log('Playing sound file ' + fileName);
+
+    /* istanbul ignore next */
+    cov_1cuyz9gra5().s[4]++;
+    console.log('Foo=' + this._foo);
+  }
+
+}
+
+/* istanbul ignore next */
+cov_1cuyz9gra5().s[5]++;
+exports.SoundPlayer = SoundPlayer;

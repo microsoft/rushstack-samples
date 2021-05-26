@@ -110,7 +110,7 @@
      *
      * This option is experimental. The default value is false.
      */
-    "useWorkspaces": true
+    //"useWorkspaces": true
   },
 
   /**
@@ -462,7 +462,27 @@
     // }
 
     // "heft" folder (alphabetical order)
+    {
+      "packageName": "heft-node-basic-tutorial",
+      "projectFolder": "heft/heft-node-basic-tutorial"
+    },
+    {
+      "packageName": "heft-node-jest-tutorial",
+      "projectFolder": "heft/heft-node-jest-tutorial"
+    },
+    {
+      "packageName": "heft-node-rig-tutorial",
+      "projectFolder": "heft/heft-node-rig-tutorial"
+    },
+    {
+      "packageName": "heft-webpack-basic-tutorial",
+      "projectFolder": "heft/heft-webpack-basic-tutorial"
+    },
 
     // "other" folder (alphabetical order)
+    {
+      "packageName": "packlets-tutorial",
+      "projectFolder": "other/packlets-tutorial"
+    }
   ]
 }

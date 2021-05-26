@@ -1,0 +1,13 @@
+{
+  "cacheVersion": "7.12.1_64c04831c4ee84218f6b3722f87179fe6fa017ca",
+  "fileVersions": [
+    [
+      "C:/Git/rushstack-samples/heft/heft-node-rig-tutorial/src/index.ts",
+      "c2ef0f358f6eb1de9a0f12c0ea97f35fea913e2b6a200e0a068e49f6b0af7b1d"
+    ],
+    [
+      "C:/Git/rushstack-samples/heft/heft-node-rig-tutorial/src/test/ExampleTest.test.ts",
+      "df3f2986fd5376b0c3852f704d7ddd9d347c560ef18ec2c26e45106daa001260"
+    ]
+  ]
+}

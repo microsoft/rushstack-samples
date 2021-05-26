@@ -1,0 +1,21 @@
+{
+  "cacheVersion": "7.12.1_c438b6a04c820d588705a5dd9f9bbd4f334f2b13",
+  "fileVersions": [
+    [
+      "C:/Git/rushstack-samples/heft/heft-webpack-basic-tutorial/src/ToggleSwitch.tsx",
+      "cc76d9d43c2f78b03f21e5a54f4eda981088e35303547cb33b85f793203ae167"
+    ],
+    [
+      "C:/Git/rushstack-samples/heft/heft-webpack-basic-tutorial/src/test/ToggleSwitch.test.ts",
+      "3f30ddbd61ce9bf132029c45a2525e750d74a4a86e8aa2dc78a0589e56438883"
+    ],
+    [
+      "C:/Git/rushstack-samples/heft/heft-webpack-basic-tutorial/src/ExampleApp.tsx",
+      "011877119d1bc09af485164232a88dfbe558aac48275210854b5594e8ca7a07c"
+    ],
+    [
+      "C:/Git/rushstack-samples/heft/heft-webpack-basic-tutorial/src/index.tsx",
+      "d1b58ab95cc68ab29e8a7c5763d08c6d1441173508188aeaea47ee4786dc5148"
+    ]
+  ]
+}

@@ -1,0 +1,216 @@
+c9a1878c91696e1be9e0c4f1d5200925
+"use strict"; // This example is adapted from the Jest guide here:
+// https://jestjs.io/docs/en/es6-class-mocks
+
+/* istanbul ignore next */
+function cov_8jxx2okw5() {
+  var path = "C:\\Git\\rushstack-samples\\heft\\heft-node-jest-tutorial\\src\\guide\\02-manual-mock\\SoundPlayerConsumer.ts";
+  var hash = "5ade8b98d6960b0dc541712db3a20a19cce7207c";
+  var global = new Function("return this")();
+  var gcv = "__coverage__";
+  var coverageData = {
+    path: "C:\\Git\\rushstack-samples\\heft\\heft-node-jest-tutorial\\src\\guide\\02-manual-mock\\SoundPlayerConsumer.ts",
+    statementMap: {
+      "0": {
+        start: {
+          line: 4,
+          column: 0
+        },
+        end: {
+          line: 4,
+          column: 62
+        }
+      },
+      "1": {
+        start: {
+          line: 5,
+          column: 0
+        },
+        end: {
+          line: 5,
+          column: 37
+        }
+      },
+      "2": {
+        start: {
+          line: 6,
+          column: 22
+        },
+        end: {
+          line: 6,
+          column: 46
+        }
+      },
+      "3": {
+        start: {
+          line: 9,
+          column: 8
+        },
+        end: {
+          line: 9,
+          column: 60
+        }
+      },
+      "4": {
+        start: {
+          line: 12,
+          column: 34
+        },
+        end: {
+          line: 12,
+          column: 44
+        }
+      },
+      "5": {
+        start: {
+          line: 13,
+          column: 8
+        },
+        end: {
+          line: 13,
+          column: 59
+        }
+      },
+      "6": {
+        start: {
+          line: 16,
+          column: 0
+        },
+        end: {
+          line: 16,
+          column: 50
+        }
+      }
+    },
+    fnMap: {
+      "0": {
+        name: "(anonymous_0)",
+        decl: {
+          start: {
+            line: 8,
+            column: 4
+          },
+          end: {
+            line: 8,
+            column: 5
+          }
+        },
+        loc: {
+          start: {
+            line: 8,
+            column: 18
+          },
+          end: {
+            line: 10,
+            column: 5
+          }
+        },
+        line: 8
+      },
+      "1": {
+        name: "(anonymous_1)",
+        decl: {
+          start: {
+            line: 11,
+            column: 4
+          },
+          end: {
+            line: 11,
+            column: 5
+          }
+        },
+        loc: {
+          start: {
+            line: 11,
+            column: 24
+          },
+          end: {
+            line: 14,
+            column: 5
+          }
+        },
+        line: 11
+      }
+    },
+    branchMap: {},
+    s: {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0
+    },
+    f: {
+      "0": 0,
+      "1": 0
+    },
+    b: {},
+    inputSourceMap: {
+      version: 3,
+      file: "C:\\Git\\rushstack-samples\\heft\\heft-node-jest-tutorial\\src\\guide\\02-manual-mock\\SoundPlayerConsumer.ts",
+      sources: ["C:\\Git\\rushstack-samples\\heft\\heft-node-jest-tutorial\\src\\guide\\02-manual-mock\\SoundPlayerConsumer.ts"],
+      names: [],
+      mappings: ";AAAA,oDAAoD;AACpD,4CAA4C;;;AAE5C,+CAA4C;AAE5C,MAAa,mBAAmB;IAE9B;QACE,IAAI,CAAC,YAAY,GAAG,IAAI,yBAAW,EAAE,CAAC;IACxC,CAAC;IAEM,iBAAiB;QACtB,MAAM,iBAAiB,GAAW,UAAU,CAAC;QAC7C,IAAI,CAAC,YAAY,CAAC,aAAa,CAAC,iBAAiB,CAAC,CAAC;IACrD,CAAC;CACF;AAVD,kDAUC",
+      sourcesContent: ["// This example is adapted from the Jest guide here:\r\n// https://jestjs.io/docs/en/es6-class-mocks\r\n\r\nimport { SoundPlayer } from './SoundPlayer';\r\n\r\nexport class SoundPlayerConsumer {\r\n  private _soundPlayer: SoundPlayer;\r\n  public constructor() {\r\n    this._soundPlayer = new SoundPlayer();\r\n  }\r\n\r\n  public playSomethingCool(): void {\r\n    const coolSoundFileName: string = 'song.mp3';\r\n    this._soundPlayer.playSoundFile(coolSoundFileName);\r\n  }\r\n}\r\n"]
+    },
+    _coverageSchema: "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    hash: "5ade8b98d6960b0dc541712db3a20a19cce7207c"
+  };
+  var coverage = global[gcv] || (global[gcv] = {});
+
+  if (!coverage[path] || coverage[path].hash !== hash) {
+    coverage[path] = coverageData;
+  }
+
+  var actualCoverage = coverage[path];
+  {
+    // @ts-ignore
+    cov_8jxx2okw5 = function () {
+      return actualCoverage;
+    };
+  }
+  return actualCoverage;
+}
+
+cov_8jxx2okw5();
+cov_8jxx2okw5().s[0]++;
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+/* istanbul ignore next */
+cov_8jxx2okw5().s[1]++;
+exports.SoundPlayerConsumer = void 0;
+const SoundPlayer_1 =
+/* istanbul ignore next */
+(cov_8jxx2okw5().s[2]++, require("./SoundPlayer"));
+
+class SoundPlayerConsumer {
+  constructor() {
+    /* istanbul ignore next */
+    cov_8jxx2okw5().f[0]++;
+    cov_8jxx2okw5().s[3]++;
+    this._soundPlayer = new SoundPlayer_1.SoundPlayer();
+  }
+
+  playSomethingCool() {
+    /* istanbul ignore next */
+    cov_8jxx2okw5().f[1]++;
+    const coolSoundFileName =
+    /* istanbul ignore next */
+    (cov_8jxx2okw5().s[4]++, 'song.mp3');
+
+    /* istanbul ignore next */
+    cov_8jxx2okw5().s[5]++;
+
+    this._soundPlayer.playSoundFile(coolSoundFileName);
+  }
+
+}
+
+/* istanbul ignore next */
+cov_8jxx2okw5().s[6]++;
+exports.SoundPlayerConsumer = SoundPlayerConsumer;
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkM6XFxHaXRcXHJ1c2hzdGFjay1zYW1wbGVzXFxoZWZ0XFxoZWZ0LW5vZGUtamVzdC10dXRvcmlhbFxcc3JjXFxndWlkZVxcMDItbWFudWFsLW1vY2tcXFNvdW5kUGxheWVyQ29uc3VtZXIudHMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6ImNBQUE7QUFDQTs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7OztBQUlBOzs7Ozs7Ozs7Ozs7Ozs7OztBQUZBLE1BQUEsYUFBQTtBQUFBO0FBQUEseUJBQUEsT0FBQSxDQUFBLGVBQUEsQ0FBQSxDQUFBOztBQUVBLE1BQWEsbUJBQWIsQ0FBZ0M7QUFFOUIsRUFBQSxXQUFBLEdBQUE7QUFBQTtBQUFBO0FBQUE7QUFDRSxTQUFLLFlBQUwsR0FBb0IsSUFBSSxhQUFBLENBQUEsV0FBSixFQUFwQjtBQUNEOztBQUVNLEVBQUEsaUJBQWlCLEdBQUE7QUFBQTtBQUFBO0FBQ3RCLFVBQU0saUJBQWlCO0FBQUE7QUFBQSw2QkFBVyxVQUFYLENBQXZCOztBQURzQjtBQUFBOztBQUV0QixTQUFLLFlBQUwsQ0FBa0IsYUFBbEIsQ0FBZ0MsaUJBQWhDO0FBQ0Q7O0FBVDZCOzs7O0FBQWhDLE9BQUEsQ0FBQSxtQkFBQSxHQUFBLG1CQUFBIiwic291cmNlc0NvbnRlbnQiOlsiLy8gVGhpcyBleGFtcGxlIGlzIGFkYXB0ZWQgZnJvbSB0aGUgSmVzdCBndWlkZSBoZXJlOlxyXG4vLyBodHRwczovL2plc3Rqcy5pby9kb2NzL2VuL2VzNi1jbGFzcy1tb2Nrc1xyXG5cclxuaW1wb3J0IHsgU291bmRQbGF5ZXIgfSBmcm9tICcuL1NvdW5kUGxheWVyJztcclxuXHJcbmV4cG9ydCBjbGFzcyBTb3VuZFBsYXllckNvbnN1bWVyIHtcclxuICBwcml2YXRlIF9zb3VuZFBsYXllcjogU291bmRQbGF5ZXI7XHJcbiAgcHVibGljIGNvbnN0cnVjdG9yKCkge1xyXG4gICAgdGhpcy5fc291bmRQbGF5ZXIgPSBuZXcgU291bmRQbGF5ZXIoKTtcclxuICB9XHJcblxyXG4gIHB1YmxpYyBwbGF5U29tZXRoaW5nQ29vbCgpOiB2b2lkIHtcclxuICAgIGNvbnN0IGNvb2xTb3VuZEZpbGVOYW1lOiBzdHJpbmcgPSAnc29uZy5tcDMnO1xyXG4gICAgdGhpcy5fc291bmRQbGF5ZXIucGxheVNvdW5kRmlsZShjb29sU291bmRGaWxlTmFtZSk7XHJcbiAgfVxyXG59XHJcbiJdfQ==

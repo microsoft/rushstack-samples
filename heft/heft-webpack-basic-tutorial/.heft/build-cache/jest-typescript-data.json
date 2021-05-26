@@ -1,0 +1,6 @@
+// THIS DATA FILE IS INTERNAL TO HEFT; DO NOT MODIFY IT OR RELY ON ITS CONTENTS
+{
+  "emitFolderNameForTests": "lib-commonjs",
+  "skipTimestampCheck": true,
+  "extensionForTests": ".js"
+}

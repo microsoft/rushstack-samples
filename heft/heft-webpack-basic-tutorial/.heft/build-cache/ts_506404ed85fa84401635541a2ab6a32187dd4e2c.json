@@ -1,0 +1,292 @@
+{
+  "program": {
+    "fileInfos": {
+      "../../../../common/temp/node_modules/.pnpm/typescript@3.9.9/node_modules/typescript/lib/lib.es5.d.ts": {
+        "version": "70ae6416528e68c2ee7b62892200d2ca631759943d4429f8b779b947ff1e124d",
+        "signature": "70ae6416528e68c2ee7b62892200d2ca631759943d4429f8b779b947ff1e124d",
+        "affectsGlobalScope": true
+      },
+      "../../../../common/temp/node_modules/.pnpm/typescript@3.9.9/node_modules/typescript/lib/lib.dom.d.ts": {
+        "version": "9affb0a2ddc57df5b8174c0af96c288d697a262e5bc9ca1f544c999dc64a91e6",
+        "signature": "9affb0a2ddc57df5b8174c0af96c288d697a262e5bc9ca1f544c999dc64a91e6",
+        "affectsGlobalScope": true
+      },
+      "../../../../common/temp/node_modules/.pnpm/typescript@3.9.9/node_modules/typescript/lib/lib.scripthost.d.ts": {
+        "version": "097a57355ded99c68e6df1b738990448e0bf170e606707df5a7c0481ff2427cd",
+        "signature": "097a57355ded99c68e6df1b738990448e0bf170e606707df5a7c0481ff2427cd",
+        "affectsGlobalScope": true
+      },
+      "../../../../common/temp/node_modules/.pnpm/typescript@3.9.9/node_modules/typescript/lib/lib.es2015.collection.d.ts": {
+        "version": "43fb1d932e4966a39a41b464a12a81899d9ae5f2c829063f5571b6b87e6d2f9c",
+        "signature": "43fb1d932e4966a39a41b464a12a81899d9ae5f2c829063f5571b6b87e6d2f9c",
+        "affectsGlobalScope": true
+      },
+      "../../../../common/temp/node_modules/.pnpm/typescript@3.9.9/node_modules/typescript/lib/lib.es2015.iterable.d.ts": {
+        "version": "42f5e41e5893da663dbf0394268f54f1da4b43dc0ddd2ea4bf471fe5361d6faf",
+        "signature": "42f5e41e5893da663dbf0394268f54f1da4b43dc0ddd2ea4bf471fe5361d6faf",
+        "affectsGlobalScope": true
+      },
+      "../../../../common/temp/node_modules/.pnpm/typescript@3.9.9/node_modules/typescript/lib/lib.es2015.promise.d.ts": {
+        "version": "0b7a905675e6cb4211c128f0a3aa47d414b275180a299a9aad5d3ec298abbfc4",
+        "signature": "0b7a905675e6cb4211c128f0a3aa47d414b275180a299a9aad5d3ec298abbfc4",
+        "affectsGlobalScope": true
+      },
+      "../../../../common/temp/node_modules/.pnpm/typescript@3.9.9/node_modules/typescript/lib/lib.es2015.symbol.d.ts": {
+        "version": "3013574108c36fd3aaca79764002b3717da09725a36a6fc02eac386593110f93",
+        "signature": "3013574108c36fd3aaca79764002b3717da09725a36a6fc02eac386593110f93",
+        "affectsGlobalScope": true
+      },
+      "../../../../common/temp/node_modules/.pnpm/@types+react@16.9.45/node_modules/@types/react/global.d.ts": {
+        "version": "ecf78e637f710f340ec08d5d92b3f31b134a46a4fcf2e758690d8c46ce62cba6",
+        "signature": "ecf78e637f710f340ec08d5d92b3f31b134a46a4fcf2e758690d8c46ce62cba6",
+        "affectsGlobalScope": true
+      },
+      "../../../../common/temp/node_modules/.pnpm/csstype@3.0.8/node_modules/csstype/index.d.ts": {
+        "version": "4ee363f83d7be2202f34fcd84c44da71bf3a9329fee8a05f976f75083a52ea94",
+        "signature": "4ee363f83d7be2202f34fcd84c44da71bf3a9329fee8a05f976f75083a52ea94",
+        "affectsGlobalScope": false
+      },
+      "../../../../common/temp/node_modules/.pnpm/@types+prop-types@15.7.3/node_modules/@types/prop-types/index.d.ts": {
+        "version": "a7e32dcb90bf0c1b7a1e4ac89b0f7747cbcba25e7beddc1ebf17be1e161842ad",
+        "signature": "a7e32dcb90bf0c1b7a1e4ac89b0f7747cbcba25e7beddc1ebf17be1e161842ad",
+        "affectsGlobalScope": false
+      },
+      "../../../../common/temp/node_modules/.pnpm/@types+react@16.9.45/node_modules/@types/react/index.d.ts": {
+        "version": "99fffab102cf237a91e7f40423bfe1a14bc9d55e19f42573559fefe47e79b4a8",
+        "signature": "99fffab102cf237a91e7f40423bfe1a14bc9d55e19f42573559fefe47e79b4a8",
+        "affectsGlobalScope": true
+      },
+      "../../src/toggleswitch.tsx": {
+        "version": "cc76d9d43c2f78b03f21e5a54f4eda981088e35303547cb33b85f793203ae167",
+        "signature": "4a6fba84e00061ad358b61cb772bbe3cb030751c9206be574a666f88cbb7def0",
+        "affectsGlobalScope": false
+      },
+      "../../src/test/toggleswitch.test.ts": {
+        "version": "3f30ddbd61ce9bf132029c45a2525e750d74a4a86e8aa2dc78a0589e56438883",
+        "signature": "2c18d56171778ec8b07b6ebc9e3f60139e9ddc345a2b42dce5b00d8c4e3afce6",
+        "affectsGlobalScope": false
+      },
+      "../../src/exampleapp.tsx": {
+        "version": "011877119d1bc09af485164232a88dfbe558aac48275210854b5594e8ca7a07c",
+        "signature": "09d762b23b497c18bad78d6d1291df18c2d6ecaeea7cb8abb97a9bce3f7d06cd",
+        "affectsGlobalScope": false
+      },
+      "../../../../common/temp/node_modules/.pnpm/@types+react-dom@16.9.8/node_modules/@types/react-dom/index.d.ts": {
+        "version": "8483a29c17f7feb768a1f4333cf12ccf1e7341bd89dadcf407e012d5315228d0",
+        "signature": "8483a29c17f7feb768a1f4333cf12ccf1e7341bd89dadcf407e012d5315228d0",
+        "affectsGlobalScope": false
+      },
+      "../../src/index.tsx": {
+        "version": "d1b58ab95cc68ab29e8a7c5763d08c6d1441173508188aeaea47ee4786dc5148",
+        "signature": "0edeadac64554c4cd3ed61c2dab02d701700292833b91671d845a8d596a03984",
+        "affectsGlobalScope": false
+      },
+      "../../../../common/temp/node_modules/.pnpm/@types+heft-jest@1.0.1/node_modules/@types/heft-jest/mocked.d.ts": {
+        "version": "ef948381fb93e21b69bb6581851b1c1c15c9a9d59752fc3b30d223cb16539534",
+        "signature": "ef948381fb93e21b69bb6581851b1c1c15c9a9d59752fc3b30d223cb16539534",
+        "affectsGlobalScope": true
+      },
+      "../../../../common/temp/node_modules/.pnpm/jest-diff@26.6.2/node_modules/jest-diff/build/cleanupsemantic.d.ts": {
+        "version": "d8aab31ba8e618cc3eea10b0945de81cb93b7e8150a013a482332263b9305322",
+        "signature": "d8aab31ba8e618cc3eea10b0945de81cb93b7e8150a013a482332263b9305322",
+        "affectsGlobalScope": false
+      },
+      "../../../../common/temp/node_modules/.pnpm/jest-diff@26.6.2/node_modules/jest-diff/build/types.d.ts": {
+        "version": "69da61a7b5093dac77fa3bec8be95dcf9a74c95a0e9161edb98bb24e30e439d2",
+        "signature": "69da61a7b5093dac77fa3bec8be95dcf9a74c95a0e9161edb98bb24e30e439d2",
+        "affectsGlobalScope": false
+      },
+      "../../../../common/temp/node_modules/.pnpm/jest-diff@26.6.2/node_modules/jest-diff/build/difflines.d.ts": {
+        "version": "561eca7a381b96d6ccac6e4061e6d2ae53f5bc44203f3fd9f5b26864c32ae6e9",
+        "signature": "561eca7a381b96d6ccac6e4061e6d2ae53f5bc44203f3fd9f5b26864c32ae6e9",
+        "affectsGlobalScope": false
+      },
+      "../../../../common/temp/node_modules/.pnpm/jest-diff@26.6.2/node_modules/jest-diff/build/printdiffs.d.ts": {
+        "version": "62ea38627e3ebab429f7616812a9394d327c2bc271003dfba985de9b4137369f",
+        "signature": "62ea38627e3ebab429f7616812a9394d327c2bc271003dfba985de9b4137369f",
+        "affectsGlobalScope": false
+      },
+      "../../../../common/temp/node_modules/.pnpm/jest-diff@26.6.2/node_modules/jest-diff/build/index.d.ts": {
+        "version": "b4439890c168d646357928431100daac5cbdee1d345a34e6bf6eca9f3abe22bc",
+        "signature": "b4439890c168d646357928431100daac5cbdee1d345a34e6bf6eca9f3abe22bc",
+        "affectsGlobalScope": false
+      },
+      "../../../../common/temp/node_modules/.pnpm/pretty-format@26.6.2/node_modules/pretty-format/build/types.d.ts": {
+        "version": "5d72971a459517c44c1379dab9ed248e87a61ba0a1e0f25c9d67e1e640cd9a09",
+        "signature": "5d72971a459517c44c1379dab9ed248e87a61ba0a1e0f25c9d67e1e640cd9a09",
+        "affectsGlobalScope": false
+      },
+      "../../../../common/temp/node_modules/.pnpm/pretty-format@26.6.2/node_modules/pretty-format/build/index.d.ts": {
+        "version": "02d734976af36f4273d930bea88b3e62adf6b078cf120c1c63d49aa8d8427c5c",
+        "signature": "02d734976af36f4273d930bea88b3e62adf6b078cf120c1c63d49aa8d8427c5c",
+        "affectsGlobalScope": false
+      },
+      "../../../../common/temp/node_modules/.pnpm/@types+jest@26.0.23/node_modules/@types/jest/index.d.ts": {
+        "version": "bbc19287f48d4b3c753bd2c82dd9326af19cccbfa1506f859029dfcedc7c5522",
+        "signature": "bbc19287f48d4b3c753bd2c82dd9326af19cccbfa1506f859029dfcedc7c5522",
+        "affectsGlobalScope": true
+      },
+      "../../../../common/temp/node_modules/.pnpm/@types+heft-jest@1.0.1/node_modules/@types/heft-jest/index.d.ts": {
+        "version": "7d94851f2e2797a812fdaaae6ba87e91e894be0198b107e544fb5a992eaa6b00",
+        "signature": "7d94851f2e2797a812fdaaae6ba87e91e894be0198b107e544fb5a992eaa6b00",
+        "affectsGlobalScope": true
+      },
+      "../../../../common/temp/node_modules/.pnpm/@types+webpack-env@1.13.0/node_modules/@types/webpack-env/index.d.ts": {
+        "version": "ee36117e685f1b725dc4ffc92d9dcbb0becc39c648d01131bbf3e25ca7ca9886",
+        "signature": "ee36117e685f1b725dc4ffc92d9dcbb0becc39c648d01131bbf3e25ca7ca9886",
+        "affectsGlobalScope": true
+      }
+    },
+    "options": {
+      "outDir": "../../lib",
+      "rootDir": "../../src",
+      "forceConsistentCasingInFileNames": true,
+      "jsx": 2,
+      "declaration": true,
+      "sourceMap": true,
+      "declarationMap": true,
+      "inlineSources": true,
+      "experimentalDecorators": true,
+      "strictNullChecks": true,
+      "noUnusedLocals": true,
+      "types": [
+        "heft-jest",
+        "webpack-env"
+      ],
+      "module": 99,
+      "moduleResolution": 2,
+      "target": 1,
+      "lib": [
+        "lib.es5.d.ts",
+        "lib.scripthost.d.ts",
+        "lib.es2015.collection.d.ts",
+        "lib.es2015.promise.d.ts",
+        "lib.es2015.iterable.d.ts",
+        "lib.dom.d.ts"
+      ],
+      "incremental": true,
+      "tsBuildInfoFile": "./ts_506404ed85fa84401635541a2ab6a32187dd4e2c.json"
+    },
+    "referencedMap": {
+      "../../../../common/temp/node_modules/.pnpm/@types+heft-jest@1.0.1/node_modules/@types/heft-jest/index.d.ts": [
+        "../../../../common/temp/node_modules/.pnpm/@types+heft-jest@1.0.1/node_modules/@types/heft-jest/mocked.d.ts",
+        "../../../../common/temp/node_modules/.pnpm/@types+jest@26.0.23/node_modules/@types/jest/index.d.ts"
+      ],
+      "../../../../common/temp/node_modules/.pnpm/@types+jest@26.0.23/node_modules/@types/jest/index.d.ts": [
+        "../../../../common/temp/node_modules/.pnpm/jest-diff@26.6.2/node_modules/jest-diff/build/index.d.ts",
+        "../../../../common/temp/node_modules/.pnpm/pretty-format@26.6.2/node_modules/pretty-format/build/index.d.ts"
+      ],
+      "../../../../common/temp/node_modules/.pnpm/@types+react-dom@16.9.8/node_modules/@types/react-dom/index.d.ts": [
+        "../../../../common/temp/node_modules/.pnpm/@types+react@16.9.45/node_modules/@types/react/index.d.ts"
+      ],
+      "../../../../common/temp/node_modules/.pnpm/@types+react@16.9.45/node_modules/@types/react/index.d.ts": [
+        "../../../../common/temp/node_modules/.pnpm/@types+prop-types@15.7.3/node_modules/@types/prop-types/index.d.ts",
+        "../../../../common/temp/node_modules/.pnpm/@types+react@16.9.45/node_modules/@types/react/global.d.ts",
+        "../../../../common/temp/node_modules/.pnpm/csstype@3.0.8/node_modules/csstype/index.d.ts"
+      ],
+      "../../../../common/temp/node_modules/.pnpm/jest-diff@26.6.2/node_modules/jest-diff/build/difflines.d.ts": [
+        "../../../../common/temp/node_modules/.pnpm/jest-diff@26.6.2/node_modules/jest-diff/build/cleanupsemantic.d.ts",
+        "../../../../common/temp/node_modules/.pnpm/jest-diff@26.6.2/node_modules/jest-diff/build/types.d.ts"
+      ],
+      "../../../../common/temp/node_modules/.pnpm/jest-diff@26.6.2/node_modules/jest-diff/build/index.d.ts": [
+        "../../../../common/temp/node_modules/.pnpm/jest-diff@26.6.2/node_modules/jest-diff/build/cleanupsemantic.d.ts",
+        "../../../../common/temp/node_modules/.pnpm/jest-diff@26.6.2/node_modules/jest-diff/build/difflines.d.ts",
+        "../../../../common/temp/node_modules/.pnpm/jest-diff@26.6.2/node_modules/jest-diff/build/printdiffs.d.ts",
+        "../../../../common/temp/node_modules/.pnpm/jest-diff@26.6.2/node_modules/jest-diff/build/types.d.ts"
+      ],
+      "../../../../common/temp/node_modules/.pnpm/jest-diff@26.6.2/node_modules/jest-diff/build/printdiffs.d.ts": [
+        "../../../../common/temp/node_modules/.pnpm/jest-diff@26.6.2/node_modules/jest-diff/build/cleanupsemantic.d.ts",
+        "../../../../common/temp/node_modules/.pnpm/jest-diff@26.6.2/node_modules/jest-diff/build/types.d.ts"
+      ],
+      "../../../../common/temp/node_modules/.pnpm/pretty-format@26.6.2/node_modules/pretty-format/build/index.d.ts": [
+        "../../../../common/temp/node_modules/.pnpm/pretty-format@26.6.2/node_modules/pretty-format/build/types.d.ts"
+      ],
+      "../../src/exampleapp.tsx": [
+        "../../../../common/temp/node_modules/.pnpm/@types+react@16.9.45/node_modules/@types/react/index.d.ts",
+        "../../src/toggleswitch.tsx"
+      ],
+      "../../src/index.tsx": [
+        "../../../../common/temp/node_modules/.pnpm/@types+react-dom@16.9.8/node_modules/@types/react-dom/index.d.ts",
+        "../../../../common/temp/node_modules/.pnpm/@types+react@16.9.45/node_modules/@types/react/index.d.ts",
+        "../../src/exampleapp.tsx"
+      ],
+      "../../src/test/toggleswitch.test.ts": [
+        "../../src/toggleswitch.tsx"
+      ],
+      "../../src/toggleswitch.tsx": [
+        "../../../../common/temp/node_modules/.pnpm/@types+react@16.9.45/node_modules/@types/react/index.d.ts"
+      ]
+    },
+    "exportedModulesMap": {
+      "../../../../common/temp/node_modules/.pnpm/@types+heft-jest@1.0.1/node_modules/@types/heft-jest/index.d.ts": [
+        "../../../../common/temp/node_modules/.pnpm/@types+heft-jest@1.0.1/node_modules/@types/heft-jest/mocked.d.ts",
+        "../../../../common/temp/node_modules/.pnpm/@types+jest@26.0.23/node_modules/@types/jest/index.d.ts"
+      ],
+      "../../../../common/temp/node_modules/.pnpm/@types+jest@26.0.23/node_modules/@types/jest/index.d.ts": [
+        "../../../../common/temp/node_modules/.pnpm/jest-diff@26.6.2/node_modules/jest-diff/build/index.d.ts",
+        "../../../../common/temp/node_modules/.pnpm/pretty-format@26.6.2/node_modules/pretty-format/build/index.d.ts"
+      ],
+      "../../../../common/temp/node_modules/.pnpm/@types+react-dom@16.9.8/node_modules/@types/react-dom/index.d.ts": [
+        "../../../../common/temp/node_modules/.pnpm/@types+react@16.9.45/node_modules/@types/react/index.d.ts"
+      ],
+      "../../../../common/temp/node_modules/.pnpm/@types+react@16.9.45/node_modules/@types/react/index.d.ts": [
+        "../../../../common/temp/node_modules/.pnpm/@types+prop-types@15.7.3/node_modules/@types/prop-types/index.d.ts",
+        "../../../../common/temp/node_modules/.pnpm/@types+react@16.9.45/node_modules/@types/react/global.d.ts",
+        "../../../../common/temp/node_modules/.pnpm/csstype@3.0.8/node_modules/csstype/index.d.ts"
+      ],
+      "../../../../common/temp/node_modules/.pnpm/jest-diff@26.6.2/node_modules/jest-diff/build/difflines.d.ts": [
+        "../../../../common/temp/node_modules/.pnpm/jest-diff@26.6.2/node_modules/jest-diff/build/cleanupsemantic.d.ts",
+        "../../../../common/temp/node_modules/.pnpm/jest-diff@26.6.2/node_modules/jest-diff/build/types.d.ts"
+      ],
+      "../../../../common/temp/node_modules/.pnpm/jest-diff@26.6.2/node_modules/jest-diff/build/index.d.ts": [
+        "../../../../common/temp/node_modules/.pnpm/jest-diff@26.6.2/node_modules/jest-diff/build/cleanupsemantic.d.ts",
+        "../../../../common/temp/node_modules/.pnpm/jest-diff@26.6.2/node_modules/jest-diff/build/difflines.d.ts",
+        "../../../../common/temp/node_modules/.pnpm/jest-diff@26.6.2/node_modules/jest-diff/build/printdiffs.d.ts",
+        "../../../../common/temp/node_modules/.pnpm/jest-diff@26.6.2/node_modules/jest-diff/build/types.d.ts"
+      ],
+      "../../../../common/temp/node_modules/.pnpm/jest-diff@26.6.2/node_modules/jest-diff/build/printdiffs.d.ts": [
+        "../../../../common/temp/node_modules/.pnpm/jest-diff@26.6.2/node_modules/jest-diff/build/cleanupsemantic.d.ts",
+        "../../../../common/temp/node_modules/.pnpm/jest-diff@26.6.2/node_modules/jest-diff/build/types.d.ts"
+      ],
+      "../../../../common/temp/node_modules/.pnpm/pretty-format@26.6.2/node_modules/pretty-format/build/index.d.ts": [
+        "../../../../common/temp/node_modules/.pnpm/pretty-format@26.6.2/node_modules/pretty-format/build/types.d.ts"
+      ],
+      "../../src/exampleapp.tsx": [
+        "../../../../common/temp/node_modules/.pnpm/@types+react@16.9.45/node_modules/@types/react/index.d.ts"
+      ],
+      "../../src/toggleswitch.tsx": [
+        "../../../../common/temp/node_modules/.pnpm/@types+react@16.9.45/node_modules/@types/react/index.d.ts"
+      ]
+    },
+    "semanticDiagnosticsPerFile": [
+      "../../../../common/temp/node_modules/.pnpm/@types+heft-jest@1.0.1/node_modules/@types/heft-jest/index.d.ts",
+      "../../../../common/temp/node_modules/.pnpm/@types+heft-jest@1.0.1/node_modules/@types/heft-jest/mocked.d.ts",
+      "../../../../common/temp/node_modules/.pnpm/@types+jest@26.0.23/node_modules/@types/jest/index.d.ts",
+      "../../../../common/temp/node_modules/.pnpm/@types+prop-types@15.7.3/node_modules/@types/prop-types/index.d.ts",
+      "../../../../common/temp/node_modules/.pnpm/@types+react-dom@16.9.8/node_modules/@types/react-dom/index.d.ts",
+      "../../../../common/temp/node_modules/.pnpm/@types+react@16.9.45/node_modules/@types/react/global.d.ts",
+      "../../../../common/temp/node_modules/.pnpm/@types+react@16.9.45/node_modules/@types/react/index.d.ts",
+      "../../../../common/temp/node_modules/.pnpm/@types+webpack-env@1.13.0/node_modules/@types/webpack-env/index.d.ts",
+      "../../../../common/temp/node_modules/.pnpm/csstype@3.0.8/node_modules/csstype/index.d.ts",
+      "../../../../common/temp/node_modules/.pnpm/jest-diff@26.6.2/node_modules/jest-diff/build/cleanupsemantic.d.ts",
+      "../../../../common/temp/node_modules/.pnpm/jest-diff@26.6.2/node_modules/jest-diff/build/difflines.d.ts",
+      "../../../../common/temp/node_modules/.pnpm/jest-diff@26.6.2/node_modules/jest-diff/build/index.d.ts",
+      "../../../../common/temp/node_modules/.pnpm/jest-diff@26.6.2/node_modules/jest-diff/build/printdiffs.d.ts",
+      "../../../../common/temp/node_modules/.pnpm/jest-diff@26.6.2/node_modules/jest-diff/build/types.d.ts",
+      "../../../../common/temp/node_modules/.pnpm/pretty-format@26.6.2/node_modules/pretty-format/build/index.d.ts",
+      "../../../../common/temp/node_modules/.pnpm/pretty-format@26.6.2/node_modules/pretty-format/build/types.d.ts",
+      "../../../../common/temp/node_modules/.pnpm/typescript@3.9.9/node_modules/typescript/lib/lib.dom.d.ts",
+      "../../../../common/temp/node_modules/.pnpm/typescript@3.9.9/node_modules/typescript/lib/lib.es2015.collection.d.ts",
+      "../../../../common/temp/node_modules/.pnpm/typescript@3.9.9/node_modules/typescript/lib/lib.es2015.iterable.d.ts",
+      "../../../../common/temp/node_modules/.pnpm/typescript@3.9.9/node_modules/typescript/lib/lib.es2015.promise.d.ts",
+      "../../../../common/temp/node_modules/.pnpm/typescript@3.9.9/node_modules/typescript/lib/lib.es2015.symbol.d.ts",
+      "../../../../common/temp/node_modules/.pnpm/typescript@3.9.9/node_modules/typescript/lib/lib.es5.d.ts",
+      "../../../../common/temp/node_modules/.pnpm/typescript@3.9.9/node_modules/typescript/lib/lib.scripthost.d.ts",
+      "../../src/exampleapp.tsx",
+      "../../src/index.tsx",
+      "../../src/test/toggleswitch.test.ts",
+      "../../src/toggleswitch.tsx"
+    ]
+  },
+  "version": "3.9.9"
+}

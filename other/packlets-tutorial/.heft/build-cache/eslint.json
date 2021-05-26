@@ -1,0 +1,45 @@
+{
+  "cacheVersion": "7.12.1_f4643691a31603c8178ef2a4d606b74f271d8fb9",
+  "fileVersions": [
+    [
+      "C:/Git/rushstack-samples/other/packlets-tutorial/src/packlets/logging/MessageType.ts",
+      "53d9d2722cb6be974f1d95a8d48b2afbffa67377c1a9d6c0029d2c6b8aa383c6"
+    ],
+    [
+      "C:/Git/rushstack-samples/other/packlets-tutorial/src/packlets/logging/Logger.ts",
+      "6c888d1061b08e14a7f472361035b41e323281efe1bfd38e8f76299dd9e09381"
+    ],
+    [
+      "C:/Git/rushstack-samples/other/packlets-tutorial/src/packlets/logging/index.ts",
+      "d3b74556de8ca7687ee8e01aca6795d721b2b4f618c3181d74b97555b7338d79"
+    ],
+    [
+      "C:/Git/rushstack-samples/other/packlets-tutorial/src/packlets/data-model/DataModel.ts",
+      "d0602a78c37ded04aa5508fdf2c4c122295f886222a8a88f65bff349fea205f2"
+    ],
+    [
+      "C:/Git/rushstack-samples/other/packlets-tutorial/src/packlets/data-model/ExampleModel.ts",
+      "bb1f9700a4bd871ac70f6c3ec275cacc2f98d3306ced8dc813c63b91da79a15a"
+    ],
+    [
+      "C:/Git/rushstack-samples/other/packlets-tutorial/src/packlets/data-model/index.ts",
+      "d4edc0845e8f68f8d3126faf1bbb376435fbd7c92067c4129ac4c1e77f9729be"
+    ],
+    [
+      "C:/Git/rushstack-samples/other/packlets-tutorial/src/packlets/reports/MainReport.ts",
+      "523898bfde8f12d59282bc175ceecb77f8541f2580f25c72241f1a5c5bbe6a19"
+    ],
+    [
+      "C:/Git/rushstack-samples/other/packlets-tutorial/src/packlets/reports/index.ts",
+      "a27fdec62d09b579a67398a80eb63e86d100c37df6c25bd8e7879bbdffe4a1fd"
+    ],
+    [
+      "C:/Git/rushstack-samples/other/packlets-tutorial/src/app/App.ts",
+      "bf83feccfb76a05a47abd3436d1665eac4c9f7527b403e6a712b99d0608560d9"
+    ],
+    [
+      "C:/Git/rushstack-samples/other/packlets-tutorial/src/start.ts",
+      "5c436b2c01ebc8ddb9470a72c6a80479f685b3474a721f267f88f60dd554a909"
+    ]
+  ]
+}

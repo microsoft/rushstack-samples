@@ -9,7 +9,8 @@
   },
   "devDependencies": {
     "@rushstack/eslint-config": "^2.3.4",
-    "@rushstack/heft": "^0.30.6",
+    "@rushstack/heft": "^0.32.0",
+    "@rushstack/heft-jest-plugin": "^0.1.2",
     "@types/heft-jest": "1.0.1",
     "@types/node": "10.17.13",
     "eslint": "~7.12.1",

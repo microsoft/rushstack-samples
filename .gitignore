@@ -63,6 +63,3 @@ common/deploy/
 common/temp/
 common/autoinstallers/*/.npmrc
 **/.rush/temp/
-
-# Heft temporary files
-.heft/

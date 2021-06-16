@@ -2,7 +2,22 @@
 
 [![Build Status](https://dev.azure.com/RushStack/GitHubProjects/_apis/build/status/rushstack/rushstack-samples%20CI%20Build?branchName=main)](https://dev.azure.com/RushStack/GitHubProjects/_build/latest?definitionId=22&branchName=main)
 
-This repo hosts code samples for the [Rush Stack](https://rushstack.io/) family of tools.
+This monorepo hosts code samples for the [Rush Stack](https://rushstack.io/) family of tools.
+
+## Documentation Links
+
+- [What is Rush Stack?](https://rushstack.io/) - learn about the mission behind these projects
+- [Zulip chat room](https://rushstack.zulipchat.com/) - chat with the Rush Stack developers
+
+## Related Repos
+
+- [rushstack](https://github.com/microsoft/rushstack) - the main monorepo where the Rush Stack tools are developed
+- [rush-example](https://github.com/microsoft/rush-example) - a minimal Rush repo that demonstrates the fundamentals
+  of Rush without relying on any other Rush Stack tooling
+- [rushstack-legacy](https://github.com/microsoft/rushstack-legacy) - older projects that are still maintained
+  but no longer actively developed
+
+## Sample Projects
 
 <!-- GENERATED PROJECT SUMMARY START -->
 

@@ -8,9 +8,9 @@ specifiers:
   "@rush-temp/packlets-tutorial": file:./projects/packlets-tutorial.tgz
   "@rushstack/eslint-config": ^2.3.4
   "@rushstack/heft": ^0.33.0
-  "@rushstack/heft-jest-plugin": ^0.1.2
+  "@rushstack/heft-jest-plugin": ^0.1.3
   "@rushstack/heft-node-rig": ^1.0.31
-  "@rushstack/heft-webpack4-plugin": ^0.1.26
+  "@rushstack/heft-webpack4-plugin": ^0.1.27
   "@types/heft-jest": 1.0.2
   "@types/node": 10.17.13
   "@types/react": 16.9.45
@@ -10739,7 +10739,7 @@ packages:
   file:projects/heft-node-basic-tutorial.tgz:
     resolution:
       {
-        integrity: sha512-c/LgHEuQwwAIivQlzdcui5VjJFe6C4fQIYm+zjOz2cn/Mre3jSpNqM1CRh/cnelbXS1h/0ftsWU8/MAutPKwIA==,
+        integrity: sha512-pS6IKSaduM+eu9zCg4hv6PelQRslEwDGVku7PF3fz+a4rRV+kCJJeVnLQfLWx1Z7C+0fAEFlpR6wIYz+yPs+0A==,
         tarball: file:projects/heft-node-basic-tutorial.tgz,
       }
     name: "@rush-temp/heft-node-basic-tutorial"
@@ -10762,7 +10762,7 @@ packages:
   file:projects/heft-node-jest-tutorial.tgz:
     resolution:
       {
-        integrity: sha512-6m3NYsU9gWT6xOMBSD8Q+Np+/VieFXw2enfb4nXiyEt3fOaW3ZDw79+0ba//xXNubbnvfxuWwMxDHL4Ana13RA==,
+        integrity: sha512-Pqq3qufZ9SARWoVS4QSknxRe4e6tFg6XUhe3GpwEXFvJN+bRa/JCEqIyJqsAHn4y/x4ZyM3uWiqDXApzKo2XvQ==,
         tarball: file:projects/heft-node-jest-tutorial.tgz,
       }
     name: "@rush-temp/heft-node-jest-tutorial"
@@ -10809,7 +10809,7 @@ packages:
   file:projects/heft-webpack-basic-tutorial.tgz:
     resolution:
       {
-        integrity: sha512-zqfpM8/qgzKOwtviVVSu+AFI9wB+1NfICVtt4kmWVmjACpFTKmRjIICrPg5bJjYkVS7qwo5t4DDgaE7txKbXeA==,
+        integrity: sha512-oEN/533X1mou8WeC5XkNhPSo1y+JIHgx2P5+PYUZRcSkfOf8y8K/F+5XGsvHIEUu49H7zsvAY9D7bJV58eVGQA==,
         tarball: file:projects/heft-webpack-basic-tutorial.tgz,
       }
     name: "@rush-temp/heft-webpack-basic-tutorial"

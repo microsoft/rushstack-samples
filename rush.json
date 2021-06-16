@@ -94,7 +94,7 @@
      *
      * The default value is false.
      */
-    "preventManualShrinkwrapChanges": true,
+    "preventManualShrinkwrapChanges": true
 
     /**
      * If true, then `rush install` will use the PNPM workspaces feature to perform the
@@ -299,7 +299,7 @@
      * The default branch name. This tells "rush change" which remote branch to compare against.
      * The default value is "master"
      */
-    "defaultBranch": "main",
+    "defaultBranch": "main"
 
     /**
      * The default remote. This tells "rush change" which remote to compare against if the remote URL is

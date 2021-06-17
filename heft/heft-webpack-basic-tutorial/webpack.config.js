@@ -47,19 +47,27 @@ function createWebpackConfig({ production }) {
                 // Enable CSS modules:  https://github.com/css-modules/css-modules
                 modules: {
                   // The "auto" setting has a confusing design:
-                  // - "false" means disable CSS modules; disabled means that the ":local" and ":global" selectors can't be used
-                  // - "true" means magically disable CSS modules if the file extension isn't ".module.css" or ".module.scss"
-                  // - a lambda disables CSS modules only if the lambda returns false; the parameter is the resource path
+                  // - "false" disables CSS modules, i.e. ":local" and ":global" selectors can't be used at all
+                  // - "true" means magically disable CSS modules if the file extension isn't like ".module.css"
+                  //   or ".module.scss"
+                  // - a lambda disables CSS modules only if the lambda returns false; the function parameter is
+                  //   the resource path
                   // - a RegExp disables CSS modules only if the resource path does not match the RegExp
                   //
-                  // NOTE: Counterintuitively, if you instead set "modules=true" then CSS modules are enabled without magic,
-                  //       as if "auto: () => true" instead of the default "auto: true".
+                  // NOTE: Counterintuitively, if you instead set "modules=true" then CSS modules are enabled
+                  //       without magic, equivalent to "auto: () => true" instead of "auto: true"
                   //
-                  // DEFAULT: "true" with magical detection
-                  auto: () => true,
+                  // DEFAULT: "true" (i.e. path based magic)
+                  auto: (resourcePath) => {
+                    // Enable CSS modules unless the filename opts out using a file extension like "filename.global.scss"
+                    return !/\.global\.\w+$/i.test(resourcePath.test);
+                  },
 
-                  // When CSS modules is enabled, the "mode" setting determines whether definitions are local or global
-                  // by default.  This can be overridden using the ":local" or ":global" selector.
+                  // This setting has no effect unless CSS modules is enabled. Possible values:
+                  // - "local": global CSS by default, overridable using the ":local" selector
+                  // - "global": local CSS by default, overridable using the ":global" selector
+                  // - "pure": requires selectors to contain at least one local class or id
+                  // - a lambda that returns the mode string; the function parameter is the resource path
                   //
                   // DEFAULT: "local"
                   mode: 'local',

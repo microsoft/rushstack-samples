@@ -23,6 +23,7 @@ function createWebpackConfig({ production }) {
         {
           // We recommend the newer .scss file format because its syntax is a proper superset of plain CSS.
           // The older .sass syntax is supported only for backwards compatibility.
+          // The SASS docs are here: https://sass-lang.com/documentation/syntax
           test: /\.(scss|sass|css)$/,
           exclude: /node_modules/,
           use: [
@@ -43,17 +44,39 @@ function createWebpackConfig({ production }) {
                 // 2 => postcss-loader, sass-loader
                 importLoaders: 2,
 
-                // Enable CSS Modules features for all file types
-                modules: true
+                // Enable CSS modules:  https://github.com/css-modules/css-modules
+                modules: {
+                  // The "auto" setting has a confusing design:
+                  // - "false" means disable CSS modules; disabled means that the ":local" and ":global" selectors can't be used
+                  // - "true" means magically disable CSS modules if the file extension isn't ".module.css" or ".module.scss"
+                  // - a lambda disables CSS modules only if the lambda returns false; the parameter is the resource path
+                  // - a RegExp disables CSS modules only if the resource path does not match the RegExp
+                  //
+                  // NOTE: Counterintuitively, if you instead set "modules=true" then CSS modules are enabled without magic,
+                  //       as if "auto: () => true" instead of the default "auto: true".
+                  //
+                  // DEFAULT: "true" with magical detection
+                  auto: () => true,
 
-                // Specify this instead, if you don't want to generate randomized class names:
-                //
-                //   modules: {
-                //     mode: 'global',
-                //     exportGlobals: true
-                //   }
-                //
-                // Docs here: https://www.npmjs.com/package/css-loader#boolean-2
+                  // When CSS modules is enabled, the "mode" setting determines whether definitions are local or global
+                  // by default.  This can be overridden using the ":local" or ":global" selector.
+                  //
+                  // DEFAULT: "local"
+                  mode: 'local',
+
+                  // Set this to true if you want to be able to reference the global declarations using import statements
+                  // similar to local CSS modules
+                  //
+                  // DEFAULT: false
+                  // exportGlobals: true,
+
+                  // Provide a recognizable class/module names for developers
+                  //
+                  // DEFAULT: "[hash:base64]"
+                  localIdentName: production ? '[hash:base64]' : '[local]__[hash:base64:5]'
+                },
+
+                sourceMap: !production
               }
             },
 
@@ -69,7 +92,9 @@ function createWebpackConfig({ production }) {
                     // https://www.npmjs.com/package/autoprefixer
                     autoprefixer
                   ]
-                }
+                },
+
+                sourceMap: !production
               }
             },
 
@@ -81,7 +106,9 @@ function createWebpackConfig({ production }) {
                 implementation: sass,
                 sassOptions: {
                   includePaths: [path.resolve(__dirname, 'node_modules')]
-                }
+                },
+
+                sourceMap: !production
               }
             }
           ]

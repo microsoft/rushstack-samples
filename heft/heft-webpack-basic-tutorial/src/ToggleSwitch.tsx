@@ -1,5 +1,7 @@
 import * as React from 'react';
 
+import styles from './ToggleSwitch.scss';
+
 /**
  * Slider positions for `ToggleSwitch`.
  */
@@ -54,33 +56,17 @@ export class ToggleSwitch extends React.Component<IToggleSwitchProps, IToggleSwi
 
   public render(): React.ReactNode {
     const frameStyle: React.CSSProperties = {
-      borderRadius: '10px',
       backgroundColor:
-        this.state.sliderPosition === ToggleSwitchPosition.Left
-          ? this.props.leftColor
-          : this.props.rightColor,
-      width: '35px',
-      height: '20px',
-      cursor: 'pointer'
+        this.state.sliderPosition === ToggleSwitchPosition.Left ? this.props.leftColor : this.props.rightColor
     };
-    const sliderStyle: React.CSSProperties = {
-      borderRadius: '10px',
-      backgroundColor: '#c0c0c0',
-      width: '20px',
-      height: '20px'
-    };
-
-    if (this.state.sliderPosition === ToggleSwitchPosition.Left) {
-      sliderStyle.marginLeft = '0px';
-      sliderStyle.marginRight = 'auto';
-    } else {
-      sliderStyle.marginLeft = 'auto';
-      sliderStyle.marginRight = '0px';
-    }
 
     return (
-      <div style={frameStyle} onClick={this._onClickSlider}>
-        <div style={sliderStyle} />
+      <div className={styles.frame} style={frameStyle} onClick={this._onClickSlider}>
+        <div
+          className={
+            this.state.sliderPosition === ToggleSwitchPosition.Left ? styles.sliderLeft : styles.sliderRight
+          }
+        />
       </div>
     );
   }

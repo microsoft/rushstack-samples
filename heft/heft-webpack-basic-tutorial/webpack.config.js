@@ -60,7 +60,7 @@ function createWebpackConfig({ production }) {
                   // DEFAULT: "true" (i.e. path based magic)
                   auto: (resourcePath) => {
                     // Enable CSS modules unless the filename opts out using a file extension like "filename.global.scss"
-                    return !/\.global\.\w+$/i.test(resourcePath.test);
+                    return !/\.global\.\w+$/i.test(resourcePath);
                   },
 
                   // This setting has no effect unless CSS modules is enabled. Possible values:

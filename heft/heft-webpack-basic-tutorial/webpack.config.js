@@ -104,12 +104,20 @@ function createWebpackConfig({ production }) {
 
                 sourceMap: !production
               }
-            },
+            }
+          ],
 
+          // Nested rules are applied after the parent rules.
+          // https://webpack.js.org/configuration/module/#nested-rules
+          rules: [
             {
+              // Prevent sass-loader from processing the .css file extension
+              test: /\.(scss|sass)$/,
+
               // Compiles SASS syntax into CSS
               // https://www.npmjs.com/package/sass-loader
               loader: 'sass-loader',
+
               options: {
                 implementation: sass,
                 sassOptions: {

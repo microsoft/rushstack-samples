@@ -1,0 +1,31 @@
+// Documentation for .scss syntax: https://sass-lang.com/documentation/syntax
+
+// Example of a SASS variable:
+$height: 20px;
+
+.frame {
+  border-radius: 10px;
+  width: 35px;
+  height: $height;
+  cursor: pointer;
+}
+
+.sliderLeft {
+  border-radius: 10px;
+  background-color: #c0c0c0;
+  width: 20px;
+  height: $height;
+
+  margin-left: 0px;
+  margin-right: auto;
+}
+
+.sliderRight {
+  border-radius: 10px;
+  background-color: #c0c0c0;
+  width: 20px;
+  height: $height;
+
+  margin-left: auto;
+  margin-right: 0px;
+}

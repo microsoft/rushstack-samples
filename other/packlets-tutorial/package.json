@@ -9,10 +9,10 @@
     "start": "node lib/start.js"
   },
   "devDependencies": {
-    "@rushstack/eslint-config": "^2.3.4",
+    "@rushstack/eslint-config": "~2.3.4",
     "@rushstack/heft": "^0.33.0",
     "@types/node": "10.17.13",
-    "eslint": "~7.12.1",
+    "eslint": "~7.28.0",
     "typescript": "~3.9.7"
   }
 }

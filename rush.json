@@ -475,6 +475,14 @@
       "projectFolder": "heft/heft-node-rig-tutorial"
     },
     {
+      "packageName": "heft-storybook-react-tutorial",
+      "projectFolder": "heft/heft-storybook-react-tutorial"
+    },
+    {
+      "packageName": "heft-storybook-react-tutorial-storykit",
+      "projectFolder": "heft/heft-storybook-react-tutorial-storykit"
+    },
+    {
       "packageName": "heft-webpack-basic-tutorial",
       "projectFolder": "heft/heft-webpack-basic-tutorial"
     },

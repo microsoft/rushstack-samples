@@ -5,7 +5,8 @@
   "private": true,
   "scripts": {
     "build": "heft test --clean",
-    "start": "heft start"
+    "start": "heft start",
+    "storybook": "heft start --storybook"
   },
   "devDependencies": {
     "@rushstack/eslint-config": "^2.4.0",

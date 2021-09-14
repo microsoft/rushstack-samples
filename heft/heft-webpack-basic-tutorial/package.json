@@ -8,10 +8,10 @@
     "start": "heft start"
   },
   "devDependencies": {
-    "@rushstack/eslint-config": "^2.3.4",
-    "@rushstack/heft": "^0.33.0",
-    "@rushstack/heft-jest-plugin": "^0.1.3",
-    "@rushstack/heft-webpack4-plugin": "^0.1.27",
+    "@rushstack/eslint-config": "^2.4.0",
+    "@rushstack/heft": "^0.38.0",
+    "@rushstack/heft-jest-plugin": "^0.1.28",
+    "@rushstack/heft-webpack4-plugin": "^0.3.0",
     "@types/heft-jest": "1.0.2",
     "@types/react": "16.9.45",
     "@types/react-dom": "16.9.8",
@@ -22,7 +22,7 @@
     "react": "~16.13.1",
     "react-dom": "~16.13.1",
     "style-loader": "~1.2.1",
-    "typescript": "~3.9.7",
+    "typescript": "~4.3.5",
     "webpack": "~4.44.2",
     "source-map-loader": "~1.1.2"
   }

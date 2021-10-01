@@ -2,7 +2,7 @@ import { FastifyInstance, FastifyRequest, FastifyReply } from 'fastify';
 import { Book } from '../../model/Book';
 
 export class ApiBooksController {
-  public static async register(fastify: FastifyInstance) {
+  public static async register(fastify: FastifyInstance): Promise<void> {
     fastify.get('/', ApiBooksController.list);
     // fastify.get('/:id', BooksController.view);
     // fastify.post('/', BooksController.create);
@@ -10,7 +10,7 @@ export class ApiBooksController {
     // fastify.delete('/:id', BooksController.delete);
   }
 
-  public static async list(request: FastifyRequest, reply: FastifyReply) {
+  public static async list(request: FastifyRequest, reply: FastifyReply): Promise<unknown> {
     return {
       books: Book.list().map((book) => ({ ...book }))
     };

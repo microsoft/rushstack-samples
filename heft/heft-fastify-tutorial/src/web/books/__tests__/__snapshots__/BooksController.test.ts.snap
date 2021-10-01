@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BooksConoll hey 1`] = `
+"<html>
+<head>
+<link rel=\\"stylesheet\\" href=\\"/assets/app.css\\">
+</head>
+<body>
+  <div class=\\"site\\">
+    <h2>Book World</h2>
+
+<table class=\\"books\\">
+  <tr>
+    <th>Title</th>
+    <th>Author</th>
+  </tr>
+      <tr>
+      <td>A test book</td>
+      <td>A test author</td>
+    </tr>
+  </table>
+
+  </div>
+</body>
+</html>
+"
+`;
+
+exports[`BooksController list renders HTML view with a list of books 1`] = `
+"<html>
+<head>
+<link rel=\\"stylesheet\\" href=\\"/assets/app.css\\">
+</head>
+<body>
+  <div class=\\"site\\">
+    <h2>Book World</h2>
+
+<table class=\\"books\\">
+  <tr>
+    <th>Title</th>
+    <th>Author</th>
+  </tr>
+      <tr>
+      <td>A test book</td>
+      <td>A test author</td>
+    </tr>
+  </table>
+
+  </div>
+</body>
+</html>
+"
+`;

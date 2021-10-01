@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ApiBooksController list renders JSON view with a list of books 1`] = `"{\\"books\\":[{\\"title\\":\\"A test book\\",\\"author\\":\\"A test author\\"}]}"`;

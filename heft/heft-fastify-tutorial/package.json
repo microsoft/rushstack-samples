@@ -8,7 +8,8 @@
     "build": "heft test --clean",
     "start": "heft start --clean",
     "serve": "fastify start lib/app.js --log-level info",
-    "print-routes": "fastify print-routes lib/app.js"
+    "print-routes": "fastify print-routes lib/app.js",
+    "build:docker": "cd ../.. && docker build --tag heft-fastify-tutorial --file heft/heft-fastify-tutorial/Dockerfile . --build-arg PORT=80"
   },
   "devDependencies": {
     "@rushstack/eslint-config": "^2.4.0",

@@ -28,4 +28,17 @@ const app: FastifyPluginAsync = async (fastify: FastifyInstance) => {
   await fastify.register(ApiBooksController.register, { prefix: '/api/books' });
 };
 
+// Our `app.ts` exports a Fastify Plugin, which means you can run it directly
+// with the fastify-cli after compiling:
+//
+//   fastify lib/app.js
+//
+// Doing this also keeps unit tests clean, as they can import the app definition
+// without getting in the mud with the specifics of starting the server.
+//
+// In production, you'll want to be able to configure Fastify (for example,
+// to specify where output logs should go), so we would run `server.ts` instead:
+//
+//   node lib/server.js
+//
 export default app;

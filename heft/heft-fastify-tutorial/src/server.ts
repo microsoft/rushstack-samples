@@ -2,6 +2,8 @@ import fastify from 'fastify';
 import { FastifyInstance } from 'fastify';
 import app from './app';
 
+/* istanbul ignore file */
+
 // This is a typescript program you control, so you can add as many
 // variables, options, etc. as you need.
 //

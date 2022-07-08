@@ -463,6 +463,10 @@
 
     // "heft" folder (alphabetical order)
     {
+      "packageName": "heft-fastify-tutorial",
+      "projectFolder": "heft/heft-fastify-tutorial"
+    },
+    {
       "packageName": "heft-node-basic-tutorial",
       "projectFolder": "heft/heft-node-basic-tutorial"
     },

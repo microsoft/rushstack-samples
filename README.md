@@ -25,6 +25,8 @@ This monorepo hosts code samples for the [Rush Stack](https://rushstack.io/) fam
 
 | Folder                                                                   | Description                                                                                                    |
 | ------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------- |
+| [/heft/heft-fastify-tutorial](./heft/heft-fastify-tutorial/)             | This project illustrates a simple Fastify web service                                                          |
+| [/heft/heft-node-jest-tutorial](./heft/heft-node-jest-tutorial/)         | Building this project validates that various Jest features work correctly with Heft                            |
 | [/heft/heft-node-basic-tutorial](./heft/heft-node-basic-tutorial/)       | This project illustrates a minimal tutorial Heft project targeting the Node.js runtime                         |
 | [/heft/heft-node-jest-tutorial](./heft/heft-node-jest-tutorial/)         | Building this project validates that various Jest features work correctly with Heft                            |
 | [/heft/heft-node-rig-tutorial](./heft/heft-node-rig-tutorial/)           | This project illustrates a minimal tutorial Heft project targeting the Node.js runtime and using a rig package |

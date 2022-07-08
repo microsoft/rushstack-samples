@@ -1,0 +1,14 @@
+<h2>Book World</h2>
+
+<table class="books">
+  <tr>
+    <th>Title</th>
+    <th>Author</th>
+  </tr>
+  <% for (let book of books) { -%>
+    <tr>
+      <td><%= book.title %></td>
+      <td><%= book.author %></td>
+    </tr>
+  <% } -%>
+</table>

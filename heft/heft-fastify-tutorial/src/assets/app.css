@@ -1,0 +1,30 @@
+body,
+html {
+  background-color: #be5f3e;
+  font-family: Helvetica, Verdana, Arial, sans-serif;
+  margin: 0px;
+  padding: 0px;
+}
+
+.site {
+  background-color: #fffff0;
+  border-radius: 8px;
+  color: #333;
+  padding: 16px;
+  margin: 16px;
+}
+
+h2 {
+  margin-top: 0px;
+  border-top: 0px;
+}
+
+table.books {
+  border-collapse: collapse;
+}
+
+table.books td,
+table.books th {
+  border: solid 1px #666;
+  padding: 0.25em 0.5em;
+}

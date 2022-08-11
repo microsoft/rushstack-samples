@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HomeController index renders an HTML index page 1`] = `
+"<html>
+<head>
+<link rel=\\"stylesheet\\" href=\\"/assets/app.css\\">
+</head>
+<body>
+  <div class=\\"site\\">
+    <h2>Book World</h2>
+
+Welcome to Book World!
+
+See our <a href=\\"/books\\">list of books</a>, or try our <a href=\\"/api/books\\">REST API</a>.
+
+  </div>
+</body>
+</html>
+"
+`;

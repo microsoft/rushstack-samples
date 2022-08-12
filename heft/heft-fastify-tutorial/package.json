@@ -1,0 +1,30 @@
+{
+  "name": "heft-fastify-tutorial",
+  "description": "This project illustrates usage of Fastify with Heft",
+  "version": "1.0.0",
+  "private": true,
+  "license": "MIT",
+  "scripts": {
+    "build": "heft test --clean",
+    "start": "heft start --clean",
+    "serve": "fastify start lib/app.js --log-level info",
+    "print-routes": "fastify print-routes lib/app.js",
+    "build:docker": "cd ../.. && docker build --tag heft-fastify-tutorial --file heft/heft-fastify-tutorial/Dockerfile . --build-arg PORT=80"
+  },
+  "devDependencies": {
+    "@rushstack/eslint-config": "^2.4.0",
+    "@rushstack/heft": "^0.38.0",
+    "@rushstack/heft-jest-plugin": "^0.1.28",
+    "@types/heft-jest": "1.0.2",
+    "@types/node": "10.17.13",
+    "eslint": "~7.12.1",
+    "typescript": "~4.3.5"
+  },
+  "dependencies": {
+    "fastify": "~3.22.0",
+    "fastify-cli": "~2.13.0",
+    "ejs": "~3.1.6",
+    "point-of-view": "~4.15.2",
+    "fastify-static": "~4.2.3"
+  }
+}

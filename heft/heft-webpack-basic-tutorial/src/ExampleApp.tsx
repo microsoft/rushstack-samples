@@ -6,6 +6,8 @@ import { ToggleSwitch, IToggleEventArgs } from './ToggleSwitch';
  */
 export class ExampleApp extends React.Component {
   public render(): React.ReactNode {
+    // This is an example of an inline style object.
+    // See ToggleSwitch.tsx for an example of a style that is imported from a SASS .scss file.
     const appStyle: React.CSSProperties = {
       backgroundColor: '#ffffff',
       padding: '20px',

@@ -6,13 +6,17 @@
   "main": "lib/index.js",
   "license": "MIT",
   "scripts": {
-    "build": "heft test --clean"
+    "build": "heft build --clean",
+    "_phase:build": "heft run --only build -- --clean",
+    "_phase:test": "heft run --only test -- --clean"
   },
   "devDependencies": {
-    "@rushstack/eslint-config": "^2.4.0",
-    "@rushstack/heft": "^0.38.0",
-    "@rushstack/heft-node-rig": "^1.0.31",
+    "@rushstack/eslint-config": "^3.3.2",
+    "@rushstack/heft": "^0.56.2",
+    "@rushstack/heft-node-rig": "^2.2.13",
     "@types/heft-jest": "1.0.2",
-    "@types/node": "10.17.13"
+    "@types/node": "14.18.36",
+    "typescript": "~5.0.4",
+    "eslint": "~8.7.0"
   }
 }

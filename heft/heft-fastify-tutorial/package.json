@@ -6,19 +6,22 @@
   "license": "MIT",
   "scripts": {
     "build": "heft test --clean",
+    "_phase:build": "heft run --only build -- --clean",
+    "_phase:test": "heft run --only test -- --clean",
     "start": "heft start --clean",
     "serve": "fastify start lib/app.js --log-level info",
     "print-routes": "fastify print-routes lib/app.js",
     "build:docker": "cd ../.. && docker build --tag heft-fastify-tutorial --file heft/heft-fastify-tutorial/Dockerfile . --build-arg PORT=80"
   },
   "devDependencies": {
-    "@rushstack/eslint-config": "^2.4.0",
-    "@rushstack/heft": "^0.38.0",
-    "@rushstack/heft-jest-plugin": "^0.1.28",
+    "@rushstack/eslint-config": "^3.3.2",
+    "@rushstack/heft": "^0.56.2",
+    "@rushstack/heft-node-rig": "^2.2.13",
+    "@types/ejs": "3.1.2",
     "@types/heft-jest": "1.0.2",
-    "@types/node": "10.17.13",
-    "eslint": "~7.12.1",
-    "typescript": "~4.3.5"
+    "@types/node": "14.18.36",
+    "eslint": "~8.7.0",
+    "typescript": "~5.0.4"
   },
   "dependencies": {
     "fastify": "~3.22.0",

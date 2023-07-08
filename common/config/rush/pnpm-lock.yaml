@@ -9,7 +9,8 @@ importers:
     specifiers:
       '@rushstack/eslint-config': ^3.3.2
       '@rushstack/heft': ^0.56.2
-      '@rushstack/heft-jest-plugin': ^0.7.13
+      '@rushstack/heft-node-rig': ^2.2.13
+      '@types/ejs': 3.1.2
       '@types/heft-jest': 1.0.2
       '@types/node': 14.18.36
       ejs: ~3.1.6
@@ -28,7 +29,8 @@ importers:
     devDependencies:
       '@rushstack/eslint-config': 3.3.2_ucoohk2w7gukx6ccuul7rl7pnq
       '@rushstack/heft': 0.56.2_@types+node@14.18.36
-      '@rushstack/heft-jest-plugin': 0.7.13_xfpecirv26dqlod3mszbatayuu
+      '@rushstack/heft-node-rig': 2.2.13_xfpecirv26dqlod3mszbatayuu
+      '@types/ejs': 3.1.2
       '@types/heft-jest': 1.0.2
       '@types/node': 14.18.36
       eslint: 8.7.0
@@ -4809,6 +4811,10 @@ packages:
     resolution: {integrity: sha512-cdeYyv4KWoEgpBISTxWvqYsVy444DOqehiF3fM3ne10AmJ62RSyNkUnxMJXHQWRQQX2eR94m5y1IZyDwBjV9FQ==}
     dependencies:
       '@types/node': 14.18.36
+    dev: true
+
+  /@types/ejs/3.1.2:
+    resolution: {integrity: sha512-ZmiaE3wglXVWBM9fyVC17aGPkLo/UgaOjEiI2FXQfyczrCefORPxIe+2dVmnmk3zkVIbizjrlQzmPGhSYGXG5g==}
     dev: true
 
   /@types/eslint-scope/3.7.4:

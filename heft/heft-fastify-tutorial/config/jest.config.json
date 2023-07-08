@@ -1,5 +1,5 @@
 {
-  "extends": "@rushstack/heft-jest-plugin/includes/jest-shared.config.json",
+  "extends": "@rushstack/heft-node-rig/profiles/default/config/jest.config.json",
   "collectCoverage": true,
   "coverageThreshold": {
     "global": {

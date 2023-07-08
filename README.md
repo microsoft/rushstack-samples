@@ -23,15 +23,16 @@ This monorepo hosts code samples for the [Rush Stack](https://rushstack.io/) fam
 
 <!-- the table below was generated using the ./repo-scripts/repo-toolbox script -->
 
-| Folder                                                                   | Description                                                                                                    |
-| ------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------- |
-| [/heft/heft-fastify-tutorial](./heft/heft-fastify-tutorial/)             | This project illustrates a simple Fastify web service                                                          |
-| [/heft/heft-node-jest-tutorial](./heft/heft-node-jest-tutorial/)         | Building this project validates that various Jest features work correctly with Heft                            |
-| [/heft/heft-node-basic-tutorial](./heft/heft-node-basic-tutorial/)       | This project illustrates a minimal tutorial Heft project targeting the Node.js runtime                         |
-| [/heft/heft-node-jest-tutorial](./heft/heft-node-jest-tutorial/)         | Building this project validates that various Jest features work correctly with Heft                            |
-| [/heft/heft-node-rig-tutorial](./heft/heft-node-rig-tutorial/)           | This project illustrates a minimal tutorial Heft project targeting the Node.js runtime and using a rig package |
-| [/heft/heft-webpack-basic-tutorial](./heft/heft-webpack-basic-tutorial/) | This project illustrates a minimal tutorial Heft project targeting the web browser runtime                     |
-| [/other/packlets-tutorial](./other/packlets-tutorial/)                   | This project illustrates how to use @rushstack/eslint-plugin-packlets                                          |
+| Folder                                                                                         | Description                                                                                                    |
+| ---------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------- |
+| [/heft/heft-fastify-tutorial](./heft/heft-fastify-tutorial/)                                   | This project illustrates usage of Fastify with Heft                                                            |
+| [/heft/heft-node-basic-tutorial](./heft/heft-node-basic-tutorial/)                             | This project illustrates a minimal tutorial Heft project targeting the Node.js runtime                         |
+| [/heft/heft-node-jest-tutorial](./heft/heft-node-jest-tutorial/)                               | Illustrates how various Jest features work with Heft                                                           |
+| [/heft/heft-node-rig-tutorial](./heft/heft-node-rig-tutorial/)                                 | This project illustrates a minimal tutorial Heft project targeting the Node.js runtime and using a rig package |
+| [/heft/heft-storybook-react-tutorial](./heft/heft-storybook-react-tutorial/)                   | This project illustrates usage of Storybook with Heft                                                          |
+| [/heft/heft-storybook-react-tutorial-storykit](./heft/heft-storybook-react-tutorial-storykit/) | Storybook build dependencies for heft-storybook-react-tutorial                                                 |
+| [/heft/heft-webpack-basic-tutorial](./heft/heft-webpack-basic-tutorial/)                       | This project illustrates a minimal tutorial Heft project targeting the web browser runtime                     |
+| [/other/packlets-tutorial](./other/packlets-tutorial/)                                         | This project illustrates how to use @rushstack/eslint-plugin-packlets                                          |
 
 <!-- GENERATED PROJECT SUMMARY END -->
 

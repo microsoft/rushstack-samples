@@ -11,10 +11,12 @@
     "_phase:test": "heft run --only test -- --clean"
   },
   "devDependencies": {
-    "@rushstack/eslint-config": "workspace:*",
-    "@rushstack/heft": "workspace:*",
-    "@rushstack/heft-node-rig": "workspace:*",
-    "@types/heft-jest": "1.0.1",
-    "@types/node": "14.18.36"
+    "@rushstack/eslint-config": "^3.3.2",
+    "@rushstack/heft": "^0.56.2",
+    "@rushstack/heft-node-rig": "^2.2.13",
+    "@types/heft-jest": "1.0.2",
+    "@types/node": "14.18.36",
+    "typescript": "~5.0.4",
+    "eslint": "~8.7.0"
   }
 }

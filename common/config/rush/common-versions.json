@@ -58,5 +58,17 @@
     // "typescript": [
     //   "~2.4.0"
     // ]
+
+    // --- For Webpack 4 projects ----
+    "css-loader": ["~5.2.7"],
+    "html-webpack-plugin": ["~4.5.2"],
+    "postcss-loader": ["~4.1.0"],
+    "sass-loader": ["~10.0.0"],
+    "sass": ["~1.3.0"],
+    "source-map-loader": ["~1.1.3"],
+    "style-loader": ["~2.0.0"],
+    "terser-webpack-plugin": ["~3.0.8"],
+    "terser": ["~4.8.0"],
+    "webpack": ["~4.44.2"]
   }
 }

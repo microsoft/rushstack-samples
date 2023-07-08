@@ -10,10 +10,10 @@
     "_phase:build": "heft run --only build -- --clean"
   },
   "devDependencies": {
-    "@rushstack/eslint-config": "workspace:*",
-    "@rushstack/heft": "workspace:*",
-    "@rushstack/heft-lint-plugin": "workspace:*",
-    "@rushstack/heft-typescript-plugin": "workspace:*",
+    "@rushstack/eslint-config": "^3.3.2",
+    "@rushstack/heft": "^0.56.2",
+    "@rushstack/heft-lint-plugin": "^0.1.14",
+    "@rushstack/heft-typescript-plugin": "^0.1.14",
     "@types/node": "14.18.36",
     "eslint": "~8.7.0",
     "typescript": "~5.0.4"

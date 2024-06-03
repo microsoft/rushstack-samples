@@ -465,6 +465,10 @@
 
     // "other" folder (alphabetical order)
     {
+      "packageName": "angular-demo",
+      "projectFolder": "other/angular-demo"
+    },
+    {
       "packageName": "packlets-tutorial",
       "projectFolder": "other/packlets-tutorial"
     }

@@ -16,7 +16,7 @@
     "@rushstack/heft-node-rig": "^2.2.13",
     "@types/heft-jest": "1.0.2",
     "@types/node": "14.18.36",
-    "typescript": "~5.0.4",
+    "typescript": "~5.4.5",
     "eslint": "~8.7.0"
   }
 }

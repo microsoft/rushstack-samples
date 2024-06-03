@@ -85,3 +85,6 @@ dist
 
 # Heft
 .heft
+
+# Angular's cache
+.angular/
